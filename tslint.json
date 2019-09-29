@@ -1,6 +1,14 @@
 {
   "extends": "tslint:recommended",
   "rules": {
-    "max-classes-per-file": false
+    "max-classes-per-file": false,
+    "arrow-parens": false,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "interface-name": false,
+    "trailing-comma": [true, {
+      "multiline": "never",
+      "singleline": "never"
+    }]
   }
 }
